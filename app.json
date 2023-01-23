@@ -1,6 +1,6 @@
 {
-  "id": "cb9f84b1-64fd-4f07-bd9e-c2cdd381f1e3",
-  "name": "DempProject3",
+  "id": "bdf0bc2e-980f-4331-942b-475ece7eae37",
+  "name": "Project1",
   "publisher": "Default publisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "21.0.0.0",
+  "application": "19.0.0.0",
   "idRanges": [
     {
       "from": 50000,
@@ -22,11 +22,10 @@
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
   },
-  "runtime": "10.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+  "runtime": "8.0",
+  "contextSensitiveHelpUrl": "http://localhost:8080/BC190/",
+  "target": "OnPrem"
 }
