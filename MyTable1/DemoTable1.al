@@ -29,7 +29,11 @@ table 50003 MyTable1
             DataClassification = ToBeClassified;
             
         }
-
+        field(6;"SureName";code[30])
+        {
+            DataClassification = ToBeClassified;
+            
+        }
 
     }
     
