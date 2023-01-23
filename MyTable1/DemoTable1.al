@@ -9,22 +9,22 @@ table 50003 MyTable1
             DataClassification = ToBeClassified;
             
         }
-        field(2,Name;code[30])
+        field(2;Name;code[30])
         {
             DataClassification = ToBeClassified;
             
         }
-        field(3,Name1;code[30])
+        field(3;Name1;code[30])
         {
             DataClassification = ToBeClassified;
             
         }
-         field(4,Name2;code[30])
+         field(4;Name2;code[30])
         {
             DataClassification = ToBeClassified;
             
         }
-         field(5,Name3;code[30])
+         field(5;Name3;code[30])
         {
             DataClassification = ToBeClassified;
             
@@ -35,7 +35,7 @@ table 50003 MyTable1
     
     keys
     {
-        key(Key1; MyField)
+        key(Key1; "Sno.")
         {
             Clustered = true;
         }
