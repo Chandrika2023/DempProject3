@@ -14,6 +14,12 @@ table 50003 MyTable1
             DataClassification = ToBeClassified;
             
         }
+        field(3,Name1;code[30])
+        {
+            DataClassification = ToBeClassified;
+            
+        }
+
     }
     
     keys
