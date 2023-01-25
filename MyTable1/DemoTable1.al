@@ -33,7 +33,10 @@ table 50003 MyTable1
         {
             DataClassification = ToBeClassified;
         }
-
+        field(7;"Full Name"; code[30])
+        {
+             DataClassification = ToBeClassified;
+            
     }
 
     keys
