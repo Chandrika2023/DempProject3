@@ -1,4 +1,4 @@
-table 50003 MyTable1
+table 70001 DemoTable
 {
     DataClassification = ToBeClassified;
 
@@ -36,6 +36,7 @@ table 50003 MyTable1
         field(7;"Full Name"; code[30])
         {
              DataClassification = ToBeClassified;
+        }
             
     }
 
